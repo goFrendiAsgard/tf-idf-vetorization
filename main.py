@@ -87,7 +87,7 @@ def get_dot_product(v1: List[float], v2: List[float]) -> float:
         result += v1[i] * v2[i]
     return result
 
-def get_vector_length(v: List[float]) -> float:
+def get_vector_length(v1: List[float]) -> float:
     result = 0.0
     for i in range(len(v1)):
         result += v1[i] ** 2
